@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Encriptador de texto</h1>
+    </header>
+    
+    <main class="caja-main">
+        <div class="caja-main_e">
+    <label for="textoOriginal" class="caja-main_label">Mensaje original</label>
+    
+    <textarea name="Texto original" id="textoOriginal" cols="50" rows="20"></textarea>
+    
+
+    <label for="textoEncriptado" class="caja-main_label">Mensaje encriptado</label>
+    
+    <textarea name="Texto encriptado" id="textoEncriptado" cols="50" rows="20"></textarea>
+    
+</div>
+
+<div class="caja-main_btn">
+    <button class="caja-main_bte bte" id="btnE" onclick="encriptador();">Encriptar</button>
+
+    <button class="caja-main_btd btd" id="btnD" onclick="desencriptador();">Desencriptar</button>
+</div>
+</main>
+
+    <script src="app.js"></script>
+</body>
+</html>
